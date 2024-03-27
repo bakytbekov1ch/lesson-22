@@ -22,9 +22,9 @@ function showService(data) {
       return `
             <div class="product">
                 <img src="${item.image}" alt="images"/>
-                <p>${item.name}</p>
-                <p>${item.category}</p>
-                <p>${item.price}</p>
+                <p>name: ${item.name}</p>
+                <p>category: ${item.category}</p>
+                <p>price: ${item.price}</p>
             </div>
         `;
     })

@@ -15,12 +15,12 @@
   border: 2px solid #ccc;
   border-radius: 6px;
   padding: 10px;
+  text-align: start;
 }
 
 .product img {
   width: 100%;
   object-fit: cover;
-  /* width: 200px; */
 }
 
 @media screen and (max-width: 992px) {
@@ -56,5 +56,3 @@
     margin: 0 auto;
   }
 }
-
-
